@@ -1,0 +1,31 @@
+.a{
+    height: 300px;
+    width: 80%;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.b{
+    height: 300px;
+    width: 40%;
+    background-color: blue;
+
+}
+.c{
+    height: 300px;
+    width: 40%;
+    background-color: red;
+}
+.d{
+    height: 300px;
+    width: 40%;
+    background-color: peru;
+   
+}
+@media screen and (max-width:900px) {
+    .a{
+        flex-direction: column;
+    }
+    
+}

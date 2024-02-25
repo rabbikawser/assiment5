@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+</head>
+<body class="bg-black min-h-screen bg-[url(images/background.png)] bg-no-repeat bg-center ">
+   <main class="text-white">
+    <section id="home" class=" flex justify-center text-center min-h-screen items-center  ">
+        <div class="space-y-4 ">
+            <h1 class="font-mono text-8xl">ALPHABET CLASH</h1>
+            <p class="uppercase">Unleash Your Keyboard Kung Fu : Press “Enter” to Play</p>
+            <button onclick="section()" class="btn bg-white ">play now</button>
+        </div>
+    </section>
+
+       
+    <section id="home1" class=" flex justify-center min-h-screen items-center hidden ">
+        <div class="space-y-4">
+
+            <!-- screen -->
+         <div >
+          <div class="artboard artboard-horizontal phone-6
+           bg-[#FFFFFFb3] border-[20px] border-blue-300 rounded-2xl">
+           <div class=" flex justify-center" >
+            <p class="text-white bg-black pb-3">don,t watch ketboard while playing....</p>
+              
+          </div>
+          <div class="h-full flex justify-center items-center" >
+            <p id="alphabet" class="text-8xl text-red-500 font-bold"></p>
+           </div>
+        </div>
+         </div>
+         <!-- kbd -->
+         <div>
+          <div class="flex justify-center gap-1 my-1 w-full">
+            <kbd id="q" class="kbd ">q</kbd>
+            <kbd id="w" class="kbd">w</kbd>
+            <kbd id="e" class="kbd">e</kbd>
+            <kbd id="r" class="kbd">r</kbd>
+            <kbd id="t" class="kbd">t</kbd>
+            <kbd id="y" class="kbd">y</kbd>
+            <kbd id="u" class="kbd">u</kbd>
+            <kbd id="i" class="kbd">i</kbd>
+            <kbd id="o" class="kbd">o</kbd>
+            <kbd id="p" class="kbd">p</kbd>
+          </div> 
+          <div class="flex justify-center gap-1 my-1 w-full">
+            <kbd  id="a" class="kbd">a</kbd>
+            <kbd  id="s" class="kbd">s</kbd>
+            <kbd  id="d" class="kbd">d</kbd>
+            <kbd  id="f" class="kbd">f</kbd>
+            <kbd  id="g" class="kbd">g</kbd>
+            <kbd  id="h" class="kbd">h</kbd>
+            <kbd  id="j" class="kbd">j</kbd>
+            <kbd  id="k" class="kbd">k</kbd>
+            <kbd  id="l" class="kbd">l</kbd>
+          </div> 
+          <div class="flex justify-center gap-1 my-1 w-full">
+            <kbd  id="z" class="kbd">z</kbd>
+            <kbd  id="x" class="kbd">x</kbd>
+            <kbd  id="c" class="kbd">c</kbd>
+            <kbd  id="v" class="kbd">v</kbd>
+            <kbd  id="b" class="kbd">b</kbd>
+            <kbd  id="n" class="kbd">n</kbd>
+            <kbd  id="m" class="kbd">m</kbd>
+            <kbd  id="/" class="kbd">/</kbd>
+          </div>
+         </div>
+         <!-- btn -->
+         <div class="flex justify-between">
+            <button class="btn">
+                Button
+               <span id="bt1">5</span>
+              </button>
+              <button class="btn">
+                Button
+              
+                 <span id="bt2">0</span>
+              </button>
+         </div>
+  
+         </div>
+    </section>
+    <section id="home2" class=" flex justify-center min-h-screen text-center items-center hidden">
+         
+        <div class="space-y-4 bg-[#FFFFFF33] p-8 rounded">
+            <h1 class="font-bold text-7xl text-white">Score:<span id="num">0</span></h1>
+            <button onclick="again()"  class="btn">play more</button>
+            <p>Practice will make you Pro</p>
+            
+        </div>
+
+    </section>
+   </main>
+
+
+
+   <script src="a.js"></script>
+   <script src="b.js"></script>
+    
+</body>
+</html>

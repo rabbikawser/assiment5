@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>This is <br> MD:rabby kawser
+    </h3>
+    <button onclick="document.body.style.backgroundColor='red'">red</button>
+    <button onclick=" a()">blue</button>
+    <button id="hi">green</button>
+    <button id="hello">purple</button>
+    <button id="koi">black</button>
+
+
+
+    <script>
+
+        const e=document.getElementById('koi').addEventListener('click',function(){document.body.style.backgroundColor='black'})
+        
+
+        const d=document.getElementById('hello')
+        
+        d.onclick=function(){
+            document.body.style.backgroundColor='purple'
+        }
+          const b=document.getElementById('hi');
+          b.onclick=c;
+          function c(){
+            document.body.style.backgroundColor='green'  
+          }
+        function a(){
+            document.body.style.backgroundColor='blue'
+        }
+    </script>
+</body>
+</html>

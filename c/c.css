@@ -1,0 +1,28 @@
+.b{
+   
+    border: 1px solid green;
+    
+    border-radius: 10px;
+}
+img{
+    width: 50%;
+    height: 50%;
+    margin: auto;
+ 
+}
+.a{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 5px;
+}
+@media screen and (max-width:576px){
+   .a{
+    grid-template-columns: repeat(1,1fr);
+   }
+}
+@media screen and (min-width:576px) and (max-width:992px){
+    .a{
+        grid-template-columns: repeat(3,1fr);
+    }
+    }
+    
